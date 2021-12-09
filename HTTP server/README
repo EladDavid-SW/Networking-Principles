@@ -1,6 +1,4 @@
-Personal details: Elad David
-
-Exercise name: EX3 – HTTP server.
+HTTP server.
 
 Submitted files:
 threadpool.c - implementaion of the threadpool.h file.

@@ -1,0 +1,13 @@
+Personal details: Elad David
+
+Exercise name: EX4: Chat Server with select
+
+Submitted files:
+chatserver.c - implementaion of a chat server.
+
+The program implements a server that responde using TCP method.
+The program supports the functionality of sending messages between client that are connected to the server, 
+disconnect from the server (and the group chat), mantaine a queue for the clients and the messages.
+The server closes the connection with each client after the client send empty message.
+Run the program useing the arg: <port number> .
+Stop the running using ctrl + c.

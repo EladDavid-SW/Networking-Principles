@@ -1,0 +1,14 @@
+Personal details: Elad David
+
+Exercise name: EX3 – HTTP server.
+
+Submitted files:
+threadpool.c - implementaion of the threadpool.h file.
+server.c - implementaion of http server the use threads pool method.
+
+The program implements http server using threads pool method.
+The program supports the functionality of sending files, dir content, handeling error : 302,400,403,404,500,501.
+The server closes the connection with each client after his responde.
+The number of client that the server can serve determinated at the args of the program (max-number-of-request).
+Run the program useing the args: <port> <poolsize> <max-number-of-request>.
+This program using threads - do not forget to use -pthread flag while compiling the program.

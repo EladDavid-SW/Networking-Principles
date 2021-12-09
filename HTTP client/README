@@ -1,0 +1,19 @@
+Personal details: Elad David
+
+Exercise name: EX2 - HTTP client.
+
+Submitted files:
+clinet.c - implementaion of the socket and the actual code.
+README.txt - describes the exercise.
+
+The program implements client-server comanication using socket.
+The program supports the functionality of add path/port num/parameters/body to get/post request from the server.
+
+User input:
+As arguments, the user can implements the program supports functionality.
+For example: ./client -p blabla -r 1 fd=sa  http://www.ptsv2.com:80/        (7 arguments)
+argv[1] + argv[2] - post request with body(argv[2])
+argv[3] + argv[4] + argv[5] - add parameters. 1 parameter(argv[4]) that contains fd=sa(argv[5]).
+argv[6] - url. after ':' comes port num (80), and after '/' the path.
+
+Note that port num and path are optional.(defult values - port num = 80, path = "/")

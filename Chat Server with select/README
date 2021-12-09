@@ -1,6 +1,4 @@
-Personal details: Elad David
-
-Exercise name: EX4: Chat Server with select
+Chat Server with select
 
 Submitted files:
 chatserver.c - implementaion of a chat server.
